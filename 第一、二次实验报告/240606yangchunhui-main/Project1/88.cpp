@@ -1,0 +1,1 @@
+#include<iostream>using namespace std;int main(){	cout << "请输入华氏温度" << endl;	int t;	cin >> t;	int C = (t - 32) * (5 / 9);	cout << "摄氏温度为" << C << endl;	return 0;}
